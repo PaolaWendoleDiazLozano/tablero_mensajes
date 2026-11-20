@@ -9,6 +9,7 @@
 from django.views.generic import ListView
 from .models import Publicacion
 
-class ListaPublicaciones(ListView):
+class VistaListaPublicaciones(ListView):
     model = Publicacion
-    template_name = 'Lista_publicaciones.html'
+    template_name = 'lista_publicaciones.html'
+    context_object_name = "publicaciones"

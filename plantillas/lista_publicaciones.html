@@ -1,6 +1,18 @@
-<h1>Pagina Inicial Tablero de Mensajes</h1>
-<ul> 
-    {% for pub in publicacion_list %}
-    <li>{{ pub.texto }}</li>
-    {% end for %}
-</ul>
+<!-- templates/lista_publicaciones.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Tablero de mensajes</title>
+</head>
+<body>
+  <h1>Pagina Inicial Tablero de Mensajes</h1>
+  <ul>
+    {% for pub in publicaciones %}
+      <li>{{ pub.texto }}</li>
+    {% empty %}
+      <li>Todavía no hay publicaciones.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
