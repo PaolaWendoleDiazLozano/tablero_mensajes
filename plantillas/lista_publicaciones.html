@@ -7,11 +7,16 @@
 </head>
 <body>
   <h1>Pagina Inicial Tablero de Mensajes</h1>
+
+  <p>Total de mensajes: {{ publicaciones|length }}</p>
+
   <ul>
     {% for pub in publicaciones %}
-      <li>{{ pub.texto }}</li>
+      <li>
+        <strong>{{ pub.autor }}</strong> ({{ pub.fecha|date:"d/m/Y H:i" }}): {{ pub.texto }}
+      </li>
     {% empty %}
-      <li>Todavía no hay publicaciones.</li>
+      <li>Todavía no hay mensajes.</li>
     {% endfor %}
   </ul>
 </body>
