@@ -1,0 +1,74 @@
+[
+{
+  "model": "publicaciones.publicacion",
+  "pk": 1,
+  "fields": {
+    "texto": "Mi primera publicacion",
+    "autor": "Anónimo",
+    "fecha": "2026-11-20T05:03:55.042Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 2,
+  "fields": {
+    "texto": "Mi segunda publicacion que es",
+    "autor": "Anónimo",
+    "fecha": "2026-11-20T05:03:55.042Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 4,
+  "fields": {
+    "texto": "Django facilita el trabajo con bases de datos.",
+    "autor": "Luis",
+    "fecha": "2026-11-20T05:06:02.931Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 5,
+  "fields": {
+    "texto": "Este mensaje se va a borrar.",
+    "autor": "Carlos",
+    "fecha": "2026-11-20T05:06:12.183Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 6,
+  "fields": {
+    "texto": "¡Hola, tablero!",
+    "autor": "Anónimo",
+    "fecha": "2026-11-20T05:30:12.178Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 7,
+  "fields": {
+    "texto": "¡Hola, tablero!",
+    "autor": "Anónimo",
+    "fecha": "2026-11-20T05:30:19.049Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 8,
+  "fields": {
+    "texto": "Django facilita el trabajo con bases de datos.",
+    "autor": "Anónimo",
+    "fecha": "2026-11-20T05:30:28.739Z"
+  }
+},
+{
+  "model": "publicaciones.publicacion",
+  "pk": 9,
+  "fields": {
+    "texto": "Primer mensaje en producción",
+    "autor": "rocky",
+    "fecha": "2026-11-26T01:25:38.328Z"
+  }
+}
+]
